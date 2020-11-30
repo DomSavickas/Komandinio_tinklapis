@@ -1,0 +1,41 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.registerform{
+    background: white;
+    width: 75%;
+    height: 100%;
+    padding: 25px 25px 25px 25px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.login{
+    background: white;
+    width: 75%;
+    height: 100%;
+    padding: 25px 25px 25px 25px;
+    border-radius: 10px;
+    margin: auto;
+}
+.postsstyle{
+    width: 75%;
+    height: 100%;
+    padding: 25px 25px 25px 25px;
+    border-radius: 10px;
+    margin: auto;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab311c5c-4cb6-4386-b9ee-df2b33ab94d0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kVGQuTuVRvAyAATveoyalGcUT3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab311c5c-4cb6-4386-b9ee-df2b33ab94d0" name="Default Changelist" comment="" />
+      <created>1605778332779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605778332779</updated>
+      <workItem from="1605778334076" duration="13085000" />
+      <workItem from="1605791582041" duration="1872000" />
+      <workItem from="1605798485737" duration="8350000" />
+      <workItem from="1606137983957" duration="16312000" />
+      <workItem from="1606220505430" duration="8512000" />
+      <workItem from="1606232315501" duration="7292000" />
+      <workItem from="1606305714482" duration="3013000" />
+      <workItem from="1606323569168" duration="5411000" />
+      <workItem from="1606388281755" duration="3167000" />
+      <workItem from="1606392249614" duration="28000" />
+      <workItem from="1606402290502" duration="6831000" />
+      <workItem from="1606409451758" duration="297000" />
+      <workItem from="1606477730070" duration="2785000" />
+      <workItem from="1606483606271" duration="461000" />
+      <workItem from="1606501069531" duration="72000" />
+      <workItem from="1606749712221" duration="300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2315" y="83" key="#Inspections" timestamp="1605786586195">
+      <screen x="1920" y="-7" width="1536" height="832" />
+    </state>
+    <state x="2315" y="83" key="#Inspections/1920.-7.1536.832/0.0.1920.1040@1920.-7.1536.832" timestamp="1605786586195" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1606406791574">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1031" y="593" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606305731236" />
+    <state x="794" y="443" key="NewPhpFileDialog/1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606406791574" />
+    <state x="2745" y="467" key="NewPhpFileDialog/1920.-7.1536.832/0.0.1920.1040@1920.-7.1536.832" timestamp="1606389905992" />
+    <state x="2531" y="177" key="refactoring.ChangeSignatureDialog" timestamp="1605785196618">
+      <screen x="1920" y="-7" width="1536" height="832" />
+    </state>
+    <state x="2531" y="177" key="refactoring.ChangeSignatureDialog/1920.-7.1536.832/0.0.1920.1040@1920.-7.1536.832" timestamp="1605785196618" />
+    <state x="2351" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1605785254133">
+      <screen x="1920" y="-7" width="1536" height="832" />
+    </state>
+    <state x="2351" y="146" width="672" height="678" key="search.everywhere.popup/1920.-7.1536.832/0.0.1920.1040@1920.-7.1536.832" timestamp="1605785254133" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/includes/load-posts-cearch.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
