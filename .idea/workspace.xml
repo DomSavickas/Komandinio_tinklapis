@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ab311c5c-4cb6-4386-b9ee-df2b33ab94d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/load-posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/load-posts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetch_comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/fetch_comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/dbh.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/dbh.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/delete_post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,7 @@
       <workItem from="1606815964597" duration="1178000" />
       <workItem from="1606820726266" duration="7582000" />
       <workItem from="1606828426615" duration="3973000" />
+      <workItem from="1606847828099" duration="2608000" />
     </task>
     <task id="LOCAL-00001" summary="Nauajs">
       <created>1606750081040</created>
@@ -87,6 +89,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nauajs" />

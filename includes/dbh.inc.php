@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $dbusername= "root";
-$dbPassword = "";
+$dbPassword = "UP1HKsAMV9lTfAP4";
 $dbName = "phpblogsystem";
 
 $conn = mysqli_connect($servername, $dbusername, $dbPassword, $dbName);

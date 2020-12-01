@@ -2,7 +2,7 @@
 session_start();
 error_reporting(0);
 // connect to database
-$conn = mysqli_connect('localhost', 'root', '', 'phpblogsystem');
+$conn = mysqli_connect('localhost', 'root', 'UP1HKsAMV9lTfAP4', 'phpblogsystem');
 
 // Here I need to replace user id with logged user id
 $user_id = "'".$_SESSION['userid']."'";

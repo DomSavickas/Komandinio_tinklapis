@@ -2,7 +2,7 @@
 session_start();
 //add_comment.php
 
-$connect = new PDO('mysql:host=localhost;dbname=phpblogsystem', 'root', '');
+$connect = new PDO('mysql:host=localhost;dbname=phpblogsystem', 'root', 'UP1HKsAMV9lTfAP4');
 
 $error = '';
 $post_id = $_POST["post_id"];

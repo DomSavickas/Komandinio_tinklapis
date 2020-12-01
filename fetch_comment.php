@@ -2,7 +2,7 @@
 
 //fetch_comment.php
 
-$connect = new PDO('mysql:host=localhost;dbname=phpblogsystem', 'root', '');
+$connect = new PDO('mysql:host=localhost;dbname=phpblogsystem', 'root', 'UP1HKsAMV9lTfAP4');
 $query = "
 SELECT * FROM tbl_comment 
 WHERE parent_comment_id = '0' AND postid = '31'
