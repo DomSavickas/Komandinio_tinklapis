@@ -19,21 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab311c5c-4cb6-4386-b9ee-df2b33ab94d0" name="Default Changelist" comment="Translated form Updated sql script">
+    <list default="true" id="ab311c5c-4cb6-4386-b9ee-df2b33ab94d0" name="Default Changelist" comment="Simple head">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-map.php" beforeDir="false" afterPath="$PROJECT_DIR$/Web-map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commit_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/commit_post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databasephotos.php" beforeDir="false" afterPath="$PROJECT_DIR$/databasephotos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/metadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/metadata.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message.php" beforeDir="false" afterPath="$PROJECT_DIR$/message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages.read.php" beforeDir="false" afterPath="$PROJECT_DIR$/messages.read.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/search-messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +94,7 @@
       <workItem from="1606815964597" duration="1178000" />
       <workItem from="1606820726266" duration="7582000" />
       <workItem from="1606828426615" duration="3973000" />
-      <workItem from="1606847828099" duration="7021000" />
+      <workItem from="1606847828099" duration="7784000" />
     </task>
     <task id="LOCAL-00001" summary="Nauajs">
       <created>1606750081040</created>
@@ -129,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606853826677</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Simple head">
+      <created>1606855285832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606855285832</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +145,8 @@
     <MESSAGE value="Nauajs" />
     <MESSAGE value="Updated db connection" />
     <MESSAGE value="Translated form Updated sql script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Translated form Updated sql script" />
+    <MESSAGE value="Simple head" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple head" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2315" y="83" key="#Inspections" timestamp="1605786586195">
@@ -181,10 +177,10 @@
     <state x="1031" y="593" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606305731236" />
     <state x="794" y="443" key="NewPhpFileDialog/1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606828953110" />
     <state x="2745" y="467" key="NewPhpFileDialog/1920.-7.1536.832/0.0.1920.1040@1920.-7.1536.832" timestamp="1606389905992" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606853830108">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606855289205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1606853830108" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1606855289205" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606749999217" />
     <state x="2531" y="177" key="refactoring.ChangeSignatureDialog" timestamp="1605785196618">
       <screen x="1920" y="-7" width="1536" height="832" />
