@@ -8,10 +8,6 @@
     <?php require_once ("includes/metadata.php")?>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <link href="./css/style.css" rel="stylesheet">
-
 </head>
 <body>
 <?php require_once ("includes/navbar.php")?>
@@ -41,7 +37,7 @@
 
 
         <fieldset>
-            <legend>Massage</legend>
+            <legend>Message</legend>
 
             <div class= "form-group">
                 <label for="massage"> Massage (Article name and aditional information)</label>
@@ -60,7 +56,7 @@
 
 
 
-        <button type="submit" class="btn btn-primary">Siųsti</button>
+        <button type="submit" class="btn btn-primary">Send</button>
 
     </form>
 
