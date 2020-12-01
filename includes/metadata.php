@@ -1,5 +1,5 @@
 <meta charset="UTF-8">
-	<meta name="description" content="This is a news and blog web">
-	<meta name="keywords" content="news, technology, blog, text, messages">
-	<meta name="author" content="Dovydas Ceponis, Dovydas.Ceponis.blog@gmail.com'">
-	<meta name='date' content='Sep. 30, 2020'>
+	<meta name="description" content="New cyber-security log site">
+	<meta name="keywords" content="news, technology, articles, cyber-security">
+	<meta name="author" content="NULL komanda, dominykas.savickas@knf.stud.vu.lt'">
+	<meta name='date' content='Dec. 1, 2020'>

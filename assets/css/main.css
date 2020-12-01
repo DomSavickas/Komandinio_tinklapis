@@ -1,0 +1,66 @@
+/*Template specific definitions */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+/******************/
+/**Template style**/
+/******************/
+html,body {
+    background-color: #5f6265;
+}
+.position-absolute{
+    position: absolute;
+}
+.position-relative{
+    position: relative;
+}
+.img-80{
+    height: 80px;
+}
+.main-wraper{
+    background-color: #f0f1f2;
+    padding-bottom: 3em;
+}
+.main-container{
+    margin-top: 5em;
+    padding-top: 2em;
+}
+footer{
+    background-color: #f0f1f2;
+    padding: 1em;
+}
+.collapse .nav-item .nav-link{
+    color: #01cd74;
+}
+.main-nav-bar{
+    background-color:  #030303!important;
+
+    margin-bottom: 2em;
+}
+.submit-btn{
+    background-color: #ff4e00;
+    color: #fff;
+    padding: 5px 1em 5px 1em;
+}
+.submit-btn:hover{
+    color: #fff;
+}
+/*******************/
+/** Registration***/
+/*******************/
+
+.showError{
+    display: block;
+    margin-bottom: 1em;
+}

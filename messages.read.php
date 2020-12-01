@@ -34,10 +34,7 @@ include 'includes/dbh.inc.php';
 
 <div class="container">
     <div class="form-group">
-        <form action="search-messages.php" method="POST">
-            <input tupe="text" name="search" placeholder="Search">
-            <button type="submit" name="submit-search" class="btn btn-warning">Search</button>
-        </form>
+
     </div>
 </div>
 
