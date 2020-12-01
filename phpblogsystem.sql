@@ -29,10 +29,10 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `blogposts` (
   `id` int(11) NOT NULL,
-  `title` varchar(200) NOT NULL,
-  `post_text` text NOT NULL,
+  `title` varchar(250) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Article title',
+  `post_text` text COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Article text',
   `timestamp` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Articles table';
 
 --
 -- Sukurta duomenų kopija lentelei `blogposts`
@@ -52,9 +52,9 @@ INSERT INTO `blogposts` (`id`, `title`, `post_text`, `timestamp`) VALUES
 CREATE TABLE `message` (
   `id` int(11) NOT NULL,
   `email` varchar(200) NOT NULL,
-  `message_text` text NOT NULL,
+  `message_text` text COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Message text',
   `timestamp` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Message table';
 
 --
 -- Sukurta duomenų kopija lentelei `message`
@@ -105,7 +105,7 @@ CREATE TABLE `tbl_comment` (
   `comment_sender_name` varchar(40) NOT NULL,
   `date` timestamp NOT NULL DEFAULT current_timestamp(),
   `postid` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Comment table';
 
 --
 -- Sukurta duomenų kopija lentelei `tbl_comment`
@@ -128,7 +128,7 @@ CREATE TABLE `users` (
   `usersEmail` varchar(200) NOT NULL,
   `usersUID` varchar(200) NOT NULL,
   `usersPWD` varchar(200) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='User table';
 
 --
 -- Sukurta duomenų kopija lentelei `users`
