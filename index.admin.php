@@ -129,13 +129,5 @@ include 'assets/img/logo.png';
     }
 
 </script>
-<script>
-    function buttonRead() {
-        <?php
-        echo "value";
-        ?>
-    }
-
-</script>
 </body>
 </html>
