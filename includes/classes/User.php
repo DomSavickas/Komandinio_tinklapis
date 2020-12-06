@@ -33,15 +33,20 @@ class User {
     public static function addUser($name, $email, $username, $password){
         $user_found = User::Find($email);
         $return = [];
+        $name = Filter::String($name);
+        $email = Filter::String($email);
+        $username = Filter::String($username);
         if($user_found) {
             // User exists
             $return['error'] = "You already have an account";
-            $return['is_logged_in'] = false;
-        } else {
 
-            $name = Filter::String($name);
-            $email = Filter::String($email);
-            $username = Filter::String($username);
+        } elseif (User::emptyInputSignup($name, $email, $username, $password)) {
+            $return['error'] = "Empty imput";
+        }elseif (User::invalidUid($username)) {
+            $return['error'] = "Invalid username";
+        }elseif(User::invalidEmail($email)){
+            $return['error'] = "Invalid email";
+        } else {
             $password = password_hash($password, PASSWORD_DEFAULT);
 
             $con = DB::getConnection();
@@ -101,6 +106,50 @@ class User {
 
         $user_found = (boolean) $findUser->rowCount();
         return $user_found;
+    }
+    private static function emptyInputSignup($name, $email, $username, $pwd){
+
+        if (empty($name) || empty($email) || empty($username) || empty($pwd)) {
+            $result = true;
+        } else {
+            $result = false;
+        }
+        return $result;
+    }
+
+
+    private static function invalidUid($username){
+
+        if(!preg_match('/^[a-zA-Z0-9]*$/', $username)){
+            $result = true;
+        }else {
+            $result = false;
+        }
+
+        return $result;
+    }
+
+    private static function invalidEmail($email){
+
+        if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+            $result = true;
+        } else {
+            $result = false;
+        }
+
+        return $result;
+    }
+
+
+    private static function pwdMatch($pwd, $pwdRepeat){
+
+        if($pwd == $pwdRepeat){
+            $result = true;
+        } else {
+            $result = false;
+        }
+
+        return $result;
     }
 
 
