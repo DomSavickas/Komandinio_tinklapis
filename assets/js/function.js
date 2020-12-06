@@ -65,9 +65,20 @@ $(document)
         return false;
     });
 //Registration
-$pInput = $("#passwordImput"); //password
+var $pInput = $("#passwordImput"); //password
 $confirmPInput = $("#confirmPasswordImput"); // comfir password
 $doc = $(document);
+$(".js-check").keyup(function(){
+   $curentInput = $(this);
+   if ($curentInput.val().length > 4){
+       $curentInput.removeClass("is-invalid");
+       $curentInput.addClass("is-valid");
+   }else{
+       $curentInput.removeClass("is-valid");
+       $curentInput.addClass("is-invalid");
+   }
+});
+
 
 function ValidateEmail(inputText)
 {
@@ -95,25 +106,64 @@ $pInput.change(function() {
 
 });
 
-$confirmPInput.change(function() {
+$confirmPInput.keyup(function() {
 
     if ($pInput.val().localeCompare($confirmPInput.val()) == 0){
         $confirmPInput.removeClass("is-invalid");
         $confirmPInput.addClass("is-valid");
+
     } else{
         $confirmPInput.removeClass("is-valid");
         $confirmPInput.addClass("is-invalid");
+
     }
 
 });
 
-$doc.on("change", "#InputEmail",function(event){
-    $inputEmail = $(this);
+$doc.on("change", ".email",function(event){
+    var $inputEmail = $(this);
+    var $error =  $(".js-email-error");
+    $error.hide();
     if (ValidateEmail($inputEmail.val())){
         $inputEmail.removeClass("is-invalid");
         $inputEmail.addClass("is-valid");
+
+        var dataObj = {
+            email: $inputEmail.val()
+        };
+
+        $.ajax({
+            type: 'POST',
+            url: '/ajax/checkifalreadyinuse.php',
+            data: dataObj,
+            dataType: 'json',
+            async: true,
+        })
+            .done(function ajaxDone(data) {
+                // Whatever data is
+                if(data.redirect !== undefined) {
+                    window.location = data.redirect;
+                } else if(data.error !== undefined) {
+                    $error
+                        .text(data.error)
+                        .show();
+                }
+            })
+            .fail(function ajaxFailed(e) {
+                $error
+                    .html("Connection problems")
+                    .show();
+            })
+            .always(function ajaxAlwaysDoThis(data) {
+                // Always do
+                //console.log('Always');
+            });
+
     } else{
         $inputEmail.removeClass("is-valid");
         $inputEmail.addClass("is-invalid");
     }
+
+
+
 });

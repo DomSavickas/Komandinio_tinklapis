@@ -19,17 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab311c5c-4cb6-4386-b9ee-df2b33ab94d0" name="Default Changelist" comment="like dislike update">
-      <change afterPath="$PROJECT_DIR$/ajax/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/classes/DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/classes/Filter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/classes/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/config.php" afterDir="false" />
+    <list default="true" id="ab311c5c-4cb6-4386-b9ee-df2b33ab94d0" name="Default Changelist" comment="refactored registration">
+      <change afterPath="$PROJECT_DIR$/ajax/checkifalreadyinuse.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/sign.inc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/functions.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +100,8 @@
       <workItem from="1606820726266" duration="7582000" />
       <workItem from="1606828426615" duration="3973000" />
       <workItem from="1606847828099" duration="9104000" />
-      <workItem from="1606982164108" duration="13463000" />
+      <workItem from="1606982164108" duration="15398000" />
+      <workItem from="1607237548374" duration="6874000" />
     </task>
     <task id="LOCAL-00001" summary="Nauajs">
       <created>1606750081040</created>
@@ -150,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606856311111</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactored registration">
+      <created>1606997538569</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606997538569</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +176,8 @@
     <MESSAGE value="Translated form Updated sql script" />
     <MESSAGE value="Simple head" />
     <MESSAGE value="like dislike update" />
-    <option name="LAST_COMMIT_MESSAGE" value="like dislike update" />
+    <MESSAGE value="refactored registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored registration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1606984521415">
@@ -218,10 +221,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="242" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1606987874281" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1606991462465">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1607240272573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1606991462465" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1607240272573" />
     <state x="1031" y="593" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606305731236" />
     <state x="794" y="443" key="NewPhpFileDialog/1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606828953110" />
     <state x="2745" y="467" key="NewPhpFileDialog/1920.-7.1536.832/0.0.1920.1040@1920.-7.1536.832" timestamp="1606389905992" />
@@ -229,10 +232,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1606984455123" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606856202659">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606997544364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1606856202659" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1024.1240@0.0.1920.1040" timestamp="1606997544364" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606749999217" />
     <state x="2531" y="177" key="refactoring.ChangeSignatureDialog" timestamp="1605785196618">
       <screen x="1920" y="-7" width="1536" height="832" />

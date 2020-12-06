@@ -21,15 +21,17 @@ define('__CONFIG__', true);
         <form class="js-register">
             <div class="form-group">
                 <label for="inputEmail">Name</label>
-                <input type="text" name="name" placeholder="Full name" class="form-control name" required>
+                <input type="text" name="name" placeholder="Full name" class="form-control name js-check" required>
+
             </div>
             <div class="form-group">
                 <label for="inputEmail">Email</label>
                 <input type="text" name="email" placeholder="Email" class="form-control email" required>
+                <div  class="invalid-feedback js-email-error"></div>
             </div>
             <div class="form-group">
                 <label for="inputEmail">Username</label>
-                <input type="text" name="uid" placeholder="Username" class="form-control username" required>
+                <input type="text" name="uid" placeholder="Username" class="form-control username js-check" required>
             </div>
             <div class="form-group">
                 <label for="inputPassword">Password</label>
